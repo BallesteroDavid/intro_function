@@ -63,4 +63,14 @@ console.log(
   } dans la phrase`,
 ); 
 
+// une fonction qui me genère un chiffre aléatoirement entre 1 et 10
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (11 - 1) +1);
+}
+
+console.log(getRandomInt());
+
+console.log(Math.random());
+
 
