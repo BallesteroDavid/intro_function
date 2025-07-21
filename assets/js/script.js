@@ -65,12 +65,11 @@ console.log(
 
 // une fonction qui me genère un chiffre aléatoirement entre 1 et 10
 
-function getRandomInt(min, max) {
-  return Math.floor(Math.random() * (11 - 1) +1);
-}
+let chiffreAleatoire = Math.random() * 9 + 1;
 
-console.log(getRandomInt());
+console.log('nombre aléatoire ' + chiffreAleatoire);
 
-console.log(Math.random());
+let chiffreArround = Math.round(chiffreAleatoire);
+console.log('chiffre arrondie ' + chiffreArround);
 
 
