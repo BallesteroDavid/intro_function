@@ -1,4 +1,4 @@
-alert('hola')
+alert('hola Bravo')
 
 // let interger = 10;
 console.log(typeof 10);
